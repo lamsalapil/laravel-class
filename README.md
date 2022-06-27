@@ -9,6 +9,6 @@
 <a href="https://www.apachefriends.org/download.html">-> xampp </a><br>
 <a href="https://getcomposer.org/download/">->Composer</a><br>
 <a href="https://code.visualstudio.com/">->Visual studio code</a> <br>
-<a color="blue">other code editor</a>
+<a style="color=green;">-->other code editor</a>
 
 </p>
