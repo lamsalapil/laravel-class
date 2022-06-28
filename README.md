@@ -12,3 +12,30 @@
 <a style="color=green;">-->other code editor</a>
 
 </p>
+
+<p>
+Open terminal or CMD
+go first in this Path 
+->  C:\xampp\htdocs
+then
+create a project in laravel
+
+~~~
+composer create-project laravel/laravel myfirstproject
+~~~
+open that peoject we have created our firat project
+
+path
+C:\xampp\htdocs\myfirstproject
+
+For learn we should download templete in laravel project.
+<a href="https://www.creative-tim.com/product/material-dashboard-laravel">Download Material dashboard laravel</a>
+
+~~~
+Route::get('/Product','App\Http\Controllers\HomeController@getproduct')->name('getproduct');
+            [______]    [_________________________________] [______]           [__________]
+           url name          path of controller             function            route name
+
+~~~
+
+</p>
