@@ -23,13 +23,36 @@ create a project in laravel
 ~~~
 composer create-project laravel/laravel myfirstproject
 ~~~
-open that peoject we have created our firat project
+open that project we have created our first project
 
+~~~
 path
 C:\xampp\htdocs\myfirstproject
+~~~
 
 For learn we should download templete in laravel project.
 <a href="https://www.creative-tim.com/product/material-dashboard-laravel">Download Material dashboard laravel</a>
+
+after install Material dashboard
+
+create a database:
+-Open xampp
+-CLICK *new
+-Create Database:XYZ
+
+~~~
+Change .env
+
+> DB_DATABASE=XYZ
+~~~
+
+Migrate all database
+~~~
+Open Terminal
+
+>php artisan migrate
+
+~~~
 
 ~~~
 Route::get('/Product','App\Http\Controllers\HomeController@getproduct')->name('getproduct');
